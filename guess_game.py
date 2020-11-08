@@ -8,7 +8,7 @@ print(player1)
 
 while(trial_count<=3):
 
-    player2=int(input("Enter a number:"))
+    player2=int(input("Enter a number from 1-99:"))
     if player1>player2:
         print("value is  higher than your guess")
     elif player1<player2:
